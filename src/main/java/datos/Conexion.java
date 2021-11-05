@@ -12,7 +12,7 @@ public class Conexion {
     private static final String JDBC_PASS = "sasa";
     private static BasicDataSource dataSource;
 
-    // Devuelve obj del tipo Coneccion
+    // Devuelve obj del tipo Conection
     public static DataSource getDataSource() {
         if (dataSource == null) {
             dataSource = new BasicDataSource();
